@@ -9,12 +9,18 @@
   color: #fff;
 }
 
+
+
 .coin-app {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 64px;
   color: #fff;
+}
+
+.coin-app :hover{
+  color: yellow;
 }
 
 .coin-search {
@@ -24,6 +30,11 @@
   justify-content: center;
   align-content: center;
 }
+
+.coin-search :hover{
+  color: yellowgreen;
+}
+
 
 .coin-text {
   margin-bottom: 32px;
@@ -37,15 +48,18 @@
   border-radius: 4px;
   border: none;
   background-image: linear-gradient(
-    -225deg,
-    #32e46a 0%,
-    #60566c 48%,
-    #4801ff 100%
+     -225deg, 
+    #d8e2dcc8 40%,
+    #eaeeebaf 70%,
+    #eaeeebaf 70%  
   );
+ color: #e2e2e2;
 
-  color: #e2e2e2;
+ 
 }
 
 .coin-input::placeholder {
   color: #e2e2e2;
 }
+
+
